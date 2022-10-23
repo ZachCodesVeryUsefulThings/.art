@@ -1,0 +1,135 @@
+*  {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+} 
+
+.header {
+    text-align: center;
+    background-image: url("./images/pattern.jpeg");
+}
+
+h1 {
+    font-family: helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+}
+
+.selection {
+    background-color: transparent;
+    text-decoration: none; 
+    display: block;
+}
+
+.selection a {
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 20px 25px;
+    color: white;
+    border: solid 5px black;
+    text-decoration: none; 
+    border-radius: 15px;
+    background-image: none;
+}
+
+.selection li {
+    display: inline-block;
+    text-decoration: none; 
+    background-image: none;
+    margin: 0 80px;
+    margin-top: 25px;
+}
+
+.selection li :hover {
+    background-color: white;
+}
+
+h2 {
+    font-family: helvetica;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    border: dotted 5px black;
+    margin-left: 15px;
+}
+
+nav {
+    border-top: outset 7px black;
+    border-bottom: double 7px black;;
+}
+
+.product-section {
+    height: 400px
+}
+
+
+
+
+.brushes {
+    background-color: mediumspringgreen;
+}
+.brushes:hover {
+    color: mediumspringgreen;
+}
+
+.frames {
+    background-color: lightcoral;
+}
+.frames:hover {
+    color: lightcoral;
+}
+
+.paint {
+    background-color: skyblue;
+}
+.paint:hover {
+    color: skyblue;
+}
+
+
+
+
+#brushes {
+    background-color: mediumspringgreen;
+}
+
+#frames {
+    background-color: lightcoral;
+}
+
+#paint {
+    background-color: skyblue;
+}
+
+img {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    border-left: double 7px black;
+    float: right;
+    width: 600px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: Helvetica;
+    margin-left: 15px;
+}
+
+p {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+strong {
+    font-family: helvetica;
+    color: blue;
+}
